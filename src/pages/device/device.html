@@ -1,0 +1,17 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ device.name || 'Unnamed' }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <!-- <ion-list inset>
+    <ion-item *ngFor="let service of peripheralData.services">
+        <p>{{ service }}</p>
+    </ion-item>
+  </ion-list> -->
+  Heart Rate Value: {{ heartRateValue || '--' }}
+</ion-content>
