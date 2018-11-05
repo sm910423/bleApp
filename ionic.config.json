@@ -1,7 +1,0 @@
-{
-  "name": "bleApp",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "angular"
-}
